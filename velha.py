@@ -13,9 +13,9 @@ def desenhar(tabuleiro):
 
 
 LINHAS_VITORIA = [
-    (0, 1, 2), (3, 4, 5), (6, 7, 8),  # linhas
-    (0, 3, 6), (1, 4, 7), (2, 5, 8),  # colunas
-    (0, 4, 8), (2, 4, 6),             # diagonais
+    (0, 1, 2), (3, 4, 5), (6, 7, 8),
+    (0, 3, 6), (1, 4, 7), (2, 5, 8),
+    (0, 4, 8), (2, 4, 6),
 ]
 
 
@@ -70,7 +70,6 @@ def jogar():
 
 
 if __name__ == "__main__":
-    # ponytail: checagem rápida da lógica de vitória, não é suíte de testes
     testes = [
         (["X", "X", "X", " ", " ", " ", " ", " ", " "], "X"),
         (["O", " ", " ", "O", " ", " ", "O", " ", " "], "O"),
